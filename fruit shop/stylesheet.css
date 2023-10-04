@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.banner {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 400px;
+    background-image: url("./images/pineapple.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+nav {
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+.menu {
+    height: 40px;
+    background-color: #000;
+    display: flex;
+    padding-top: 30px;
+    position: absolute;
+    bottom: -35px
+}
+
+.menu li a {
+    margin-left: 30px;
+    padding-right: 60px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.menu li a.active,
+.menu li a:hover {
+    color: #f2c50e;
+}
+
+.shop {
+    padding-top: 50px;
+}
+
+.fr h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+p {
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+#buy{
+    height: 50px;
+    width: 100px;
+    background-color: #000;
+    cursor: pointer;
+    color: #a29b9b;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 550px;
+    text-transform: capitalize;
+    text-align: center;
+    transition: width 2s;
+}
+#buy:hover {
+
+    background: #fff;
+    width: 200px;
+}
+
+.apple {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.apple img {
+    height: 400px;
+}
+
+#read {
+    height: 40px;
+    width: 100px;
+    background-color: #000;
+    cursor: pointer;
+    color: #a29b9b;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 150px;
+    text-transform: capitalize;
+
+}
+
+#read:hover {
+    background: #fff;
+    transform: scale(1.5);
+}
+
+.container-2 {
+    width: 1200px;
+    margin: auto ;
+}
+
+.pomegra {
+    margin-top: 60px;
+    display: flex;    
+}
+
+.border {
+    border-left: 2px solid #000;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.square {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    width: 550px;
+    height: 400px;
+    background-color: #d4d2d2;
+}
+
+.pome img {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 600px;
+    height: 350px
+}
+
+.content {
+
+    padding-top: 150px;
+    padding-left: 100px;
+    width: 400px;
+}
+
+.para {
+    text-align: justify;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.about-head {
+    margin-top: 80px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.read {
+    height: 30px;
+    width: 100px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 120px;
+    margin-top: 30px;
+    padding-top: 13px;
+    display: block;
+}
+
+.read li a:hover {
+    color: #fff;
+}
+
+/*fruit-section*/
+
+.fruit-section {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.fresh h1 {
+    text-align: center;
+    padding-top: 40px;
+    text-transform: capitalize;
+}
+
+.fresh h1::before {
+    position: absolute;
+    content: " ";
+    height: 1px;
+    background-color: #000;
+    width: 180px;
+    margin-top: 17px;
+    margin-right: 20px;
+    left: 315px;
+}
+
+/* .line{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 200px;
+    height: 1px;
+    background-color: #000; 
+} */
+.fruit-fresh {
+
+    display: flex;
+    justify-content: center;
+}
+
+.orange {
+    width: 25%;
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+
+.orange img {
+
+    height: 300px;
+    width: 100%;
+}
+
+/* man-content */
+.info {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.call h1 {
+    text-align: center;
+    padding-top: 40px;
+    text-transform: capitalize;
+}
+
+.call h1::before {
+    position: absolute;
+    content: " ";
+    height: 1px;
+    background-color: #000;
+    width: 180px;
+    margin-top: 17px;
+    margin-right: 20px;
+
+}
+
+.customer h1 {
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    padding-top: 40px;
+
+}
+
+.customer h1::after {
+    position: absolute;
+    content: "";
+    width: 180px;
+    height: 1px;
+    background: #000;
+    margin-top: 15px;
+    margin-left: 24px;
+}
+
+.man {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.man img {
+    height: 200px;
+}
+
+.center p {
+
+    font-size: 16px;
+    color: #000;
+    width: 60%;
+    margin: 0 auto;
+    text-indent: 1.5;
+    line-height: 1.5;
+}
+
+.john {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* call */
+.request {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.call h1 {
+    text-align: center;
+    padding-top: 40px;
+    text-transform: capitalize;
+}
+
+.call h1::before {
+    position: absolute;
+    content: " ";
+    height: 1px;
+    background-color: #000;
+    width: 180px;
+    margin-top: 17px;
+    margin-right: 20px;
+    left: 283px;
+}
+
+/* form */
+
+.fill {
+    padding-left: 350px;
+    padding-top: 40px;
+
+}
+
+#name {
+    padding: 10px;
+    width: 300px;
+}
+
+#mail {
+    padding: 10px;
+    width: 300px;
+}
+
+#ph-no {
+    padding: 10px;
+    width: 300px;
+}
+
+#message {
+    padding: 10px;
+    width: 300px;
+}
+
+#send {
+    padding: 10px;
+    width: 150px;
+    background-color: #f0a822;
+    border-color: #f0a822;
+    cursor: pointer;
+}
+
+footer {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #373636;
+    color: #fff;
+    padding-bottom: 130px;
+    margin: 0 auto;
+}
+
+
+.ninom h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+    padding-top: 40px;
+}
+
+.contact-2 {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+
+#email {
+    margin-top: 40px;
+    margin-left: 100px;
+    padding: 10px;
+    width: 500px;
+}
+
+#subscribe {
+    padding: 10px;
+    width: 150px;
+    background-color: #f0a822;
+    border-color: #f0a822;
+    cursor: pointer;
+}
+
+.end {
+    width: 1200px;
+}
+
+.last {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
